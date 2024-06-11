@@ -2,7 +2,7 @@ class QuestionsController < ApplicationController
   def ask
   end
   def answer
-    @question = params[:ask]
+    @question = params[:question]
     if @question.blank?
       @answer = "😑"
     elsif @question == "I am going to work"
