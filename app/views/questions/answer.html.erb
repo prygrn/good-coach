@@ -1,0 +1,11 @@
+<div>
+  <div class="alert alert-dark" role="alert">
+    I said : <strong><%=@question%></strong>
+  </div>
+  <br>
+  <div class="alert alert-danger" role="alert">
+    The coach said: <strong><%=@answer%></strong>
+  </div>
+  <br>
+  <%= link_to "Ask another question", ask_path %>
+</div>
